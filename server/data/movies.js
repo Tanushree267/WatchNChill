@@ -1,0 +1,107 @@
+// backend/data/movies.js
+export const movies = [
+  {
+    _id: "324544",
+    title: "Beauty and the Beast",
+    overview: "A live-action adaptation of Disney's version of the classic tale of a cursed prince and a beautiful young woman who helps him break the spell.",
+    poster_path: "https://i.pinimg.com/736x/de/8e/38/de8e385538199b48a5c8fc3d5853f43f.jpg",
+    backdrop_path: "https://i.pinimg.com/1200x/a3/5f/6d/a35f6de8968f35e44ad5d385cebe63a5.jpg",
+    trailer:"https://www.youtube.com/watch?v=pnkgw6pAKkM",
+    genres: [{ id: 28, name: "Family" }, { id: 14, name: "Fantasy" }, { id: 12, name: "Romance" }],
+    release_date: "2025-02-27",
+    tagline: "Be our guest.",
+    vote_average: 6.4,
+    runtime: 102
+  },
+  {
+    _id: "1232546",
+    title: "Alice in Borderland",
+    overview: "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to win.",
+    poster_path: "https://i.pinimg.com/736x/07/e7/4f/07e74f079f6c18a78389bf722303e215.jpg",
+    backdrop_path: "https://i.pinimg.com/736x/39/1f/67/391f67de41fe3b37ab140b3dd90b6574.jpg",
+    trailer:"https://www.youtube.com/watch?v=49_44FFKZ1M",
+    genres: [{ id: 27, name: "Horror" }, { id: 9648, name: "Drama" }, { id: 9640, name: "Adventure" }],
+    release_date: "2025-04-23",
+    tagline: "Life is a game, you should enjoy it more.",
+    vote_average: 9.05,
+    runtime: 121
+  },
+  {
+    _id: "552524",
+    title: "Wednesday",
+    overview: "Smart, sarcastic and a little dead inside, Wednesday Addams investigates twisted mysteries while making new friends — and foes — at Nevermore Academy",
+    poster_path: "https://i.pinimg.com/1200x/d6/6f/90/d66f9055ffcb64b806e8bfd565fd04cb.jpg",
+    backdrop_path: "https://i.pinimg.com/736x/a3/61/74/a36174232567ae0e34710fe41a1a6413.jpg",
+    trailer:"https://www.youtube.com/watch?v=Di310WS8zLk",
+    genres: [{ id: 14, name: "Fantasy" }, { id: 35, name: "Comedy" }, { id: 9648, name: "Mystery" }],
+    release_date: "2025-05-17",
+    tagline: "The wait has been torture",
+    vote_average: 7.117,
+    runtime: 108
+  },
+  {
+    _id: "668489",
+    title: "Zootopia",
+    overview: "Determined to prove herself, Officer Judy Hopps, the first bunny on Zootopia's police force, jumps at the chance to crack her first case - even if it means partnering with scam-artist fox Nick Wilde to solve the mystery",
+    poster_path: "https://i.pinimg.com/1200x/e4/bb/97/e4bb97ed99a32328cbf3a9517845abb8.jpg",
+    backdrop_path: "https://i.pinimg.com/1200x/f4/2d/66/f42d66106e28aafbeaa51915ffdefad9.jpg",
+    trailer:"https://www.youtube.com/watch?v=sEgPQ7HKoBA",
+    genres: [{ id: 28, name: "Animation" }, { id: 80, name: "Adventure" }, { id: 53, name: "Family" }, { id: 51, name: "Comedy" }],
+    release_date: "2025-04-25",
+    tagline: "Welcome to the urban jungle.",
+    vote_average: 6.537,
+    runtime: 107
+  },
+  {
+    _id: "950387",
+    title: "The Demon Slayer",
+    overview: "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins",
+    poster_path: "https://i.pinimg.com/736x/8c/40/4c/8c404c236ac042ad7fa5e9243fe5a246.jpg",
+    backdrop_path: "https://i.pinimg.com/736x/4f/50/da/4f50dadb8905421bc991460df098abcb.jpg",
+    trailer:"https://www.youtube.com/watch?v=x7uLutVRBfI",
+    genres: [{ id: 10751, name: "Animation" }, { id: 35, name: "Action" }, { id: 12, name: "Thriller" }, { id: 14, name: "Fantasy" }],
+    release_date: "2025-03-31",
+    tagline: "It's time to have some fun.",
+    vote_average: 6.516,
+    runtime: 101
+  },
+  {
+    _id: "575265",
+    title: "Twilight",
+    overview: "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire.",
+    poster_path: "https://i.pinimg.com/736x/3f/e5/4c/3fe54cb52e523c06919b34d275b224f6.jpg",
+    backdrop_path: "https://i.pinimg.com/736x/ea/bb/dd/eabbdd2b4340a401d88c6178c054eaa6.jpg",
+    trailer:"https://www.youtube.com/watch?v=uxjNDE2fMjI",
+    genres: [{ id: 28, name: "Fantasy" }, { id: 12, name: "Drama" }, { id: 53, name: "Romance" }],
+    release_date: "2025-05-17",
+    tagline: "When you can live forever, what do you live for?",
+    vote_average: 7.042,
+    runtime: 170
+  },
+  {
+    _id: "986056",
+    title: "Ratatouille",
+    overview: "Remy, a resident of Paris, appreciates good food and has quite a sophisticated palate. He would love to become a chef so he can create and enjoy culinary masterpieces to his heart's delight.",
+    poster_path: "https://i.pinimg.com/736x/87/91/bd/8791bd9195dc87f5b3972d321112d865.jpg",
+    backdrop_path: "https://i.pinimg.com/736x/b0/cf/6e/b0cf6e7ac85b2fd36574657d853fd6e9.jpg",
+    trailer:"https://www.youtube.com/watch?v=NgsQ8mVkN8w",
+    genres: [{ id: 28, name: "Animation" }, { id: 878, name: "Comedy" }, { id: 12, name: "Family" }],
+    release_date: "2025-04-30",
+    tagline: "Everyone deserves a second shot.",
+    vote_average: 7.443,
+    runtime: 127
+  },
+  {
+    _id: "986057",
+    title: "Avengers: Endgame",
+    overview: "After the devastating events of Avengers: Infinity War, the universe is in ruins — the Avengers must assemble to undo Thanos' actions.",
+    poster_path: "https://i.pinimg.com/1200x/5f/53/b7/5f53b72afed403571e67ba002a67e7e3.jpg",
+    backdrop_path: "https://i.pinimg.com/1200x/71/3e/87/713e87d21f47dc33b5d5ac4abd60278e.jpg",
+    trailer:"https://www.youtube.com/watch?v=hA6hldpSTF8",
+    genres: [{ id: 28, name: "Adventure" }, { id: 878, name: "Science Fiction" }, { id: 12, name: "Action" }],
+    release_date: "2025-04-30",
+    tagline: "Avenge the fallen.",
+    vote_average: 7.443,
+    runtime: 127
+  }
+];
